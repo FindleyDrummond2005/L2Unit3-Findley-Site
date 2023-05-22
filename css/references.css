@@ -1,0 +1,43 @@
+body
+{
+    height: 100%;
+}
+
+.reference_container
+{
+    display:flex;
+    padding-bottom: 50px;
+    z-index: -5;
+}
+
+.reference_name
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 1.5vw;
+    width: 16vw;
+    height: 32vh;
+    border: 4px solid black;
+    overflow-wrap: break-word;
+    border-radius: 50%;
+    z-index: -5;
+}
+
+.reference_content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    text-align: center;
+    position: relative;
+    left: 3vw;
+    width: 78vw;
+    height: 15vh;
+    border: 4px solid black;
+    overflow-wrap: break-word;
+    z-index: -5;
+}       

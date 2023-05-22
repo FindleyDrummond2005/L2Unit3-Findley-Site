@@ -1,0 +1,43 @@
+body
+{
+    height:100%;
+}
+.tvhead_gif_container
+{
+    display:flex;
+    justify-content: center;
+    width:98vw;
+}
+
+.tvhead_gif
+{
+    width:20vmax;
+}
+
+.aboutme_home_container
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    left: 1.5vw;
+    width: 95.8vw;
+    height: 29.4vmax;
+    border: 4px solid black;
+    overflow-wrap: break-word;
+    z-index: -5;
+}
+
+.quote
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top:3vh;
+    width: 99.5%;
+    height: 9.65vh;
+    background-color: black;
+    border: 4px solid black;
+}

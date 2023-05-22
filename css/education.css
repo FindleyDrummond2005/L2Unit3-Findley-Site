@@ -1,0 +1,41 @@
+body
+{
+    height:100vh;
+}
+
+.education_selector
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 1.5vw;
+    width: 95.8vw;
+    height: 10vh;
+    border: 4px solid black;    
+    overflow-wrap: break-word;
+}
+
+.education_name
+{
+    display:flex;
+    position: relative;
+    left: 1.5vw;
+    cursor:pointer;
+}
+
+.closed_edu_menu
+{
+    width: 0px;
+    height: 0px;
+}
+
+.open_edu_menu
+{
+    position: relative;
+    left: 1.5vw;
+    width:95.8vw;
+    height:78vh;
+    border: 4px solid black;
+}

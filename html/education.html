@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Education</title>
+        <link href="..\css\base.css" rel="stylesheet"> 
+        <link href="..\css\education.css" rel="stylesheet">
+        <!-- <style> * {border: 1px solid rgb(255, 0, 234)} </style> -->
+    </head>
+    
+    <body>
+        <div class="topbar">
+            <h1 class="topbar_text">Education<button class="hamburger" onclick="hamburger_toggle()"><img src="..\assets\icons\hamburger_menu.png" id="menu_toggle_img" alt="hamburger menu"></button></h1>
+        </div>
+        <ul class="menu">
+            <li><a class="menu_item" href="..\html\index.html">Home</a></li> <br>
+            <li><a class="menu_item" href="..\html\contact.html">Contacts</a></li> <br>
+            <li><a class="menu_item" href="..\html\cv.html">CV</a></li> <br>
+            <li><a class="menu_item" href="..\html\skills.html">Skills</a></li> <br>
+            <li><a class="menu_item" href="..\html\achievements.html">Achievements</a></li> <br>
+            <li><a class="menu_item" href="..\html\references.html">References</a></li> <br>
+            <li><a class="menu_item" href="..\html\aboutme.html">About me</a></li> <br>
+        </ul>
+        <br>
+        
+        <div class="education_selector"> 
+            <a class="education_name" onclick="open_edu(1)">temp</a>
+            <a class="education_name" onclick="open_edu(2)">temp</a>
+            <a class="education_name" onclick="open_edu(3)">temp</a>
+            <a class="education_name" onclick="open_edu(4)">temp</a>
+            <a class="education_name" onclick="open_edu(5)">temp</a>
+        </div>
+
+        <div class="closed_edu_menu"></div>
+
+    </body>
+    
+<script src="..\javascript\main.js"></script>
+<script src="..\javascript\education.js"></script>
+</html>

@@ -1,0 +1,20 @@
+p
+{
+    position: relative;
+    left:52.1vw;
+    width:fit-content;
+}
+.cvimg
+{
+    position: relative;
+    width:60vmax;
+    left:20vmax;
+}
+
+.download_button
+{
+    position:relative;
+    width:60vmax;
+    left:20vmax;
+    cursor:pointer;
+}
