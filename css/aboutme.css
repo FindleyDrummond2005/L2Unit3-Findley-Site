@@ -1,6 +1,6 @@
 body
 {
-    height: 100%;
+    height: 100vh;
 }
 .aboutme_paragraph
 {
@@ -11,45 +11,50 @@ body
     position: relative;
     left: 1.5vw;
     width: 96vw;
-    height: 65vh;
+    height: 62vh;
     border: 4px solid black;
     overflow-wrap: break-word;
-    z-index: -5;
+    z-index: 0;
+    overflow-y: auto;
 }
 
 .learning_free-time_container
 {
     display:flex;
-    z-index: -5;
+    z-index: 0;
 }
 
 .current_learning
 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: top;
     text-align: center;
     position: relative;
     left: 1.5vw;
     width: 70vw;
-    height: 24.65vh;
+    height: 22.65vh;
     border: 4px solid black;
+    padding-top:20px;
     overflow-wrap: break-word;
-    z-index: -5;
+    z-index: 0;
+    overflow-y: auto;
 }
 
 .free_time
 {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: top;
     text-align: center;
     position: relative;
     left: 2.1vw;
-    width: 24.85vw;
-    height: 24.65vh;
+    width: 24.87vw;
+    height: 22.65vh;
     border: 4px solid black;
     overflow-wrap: break-word;
-    z-index: -5;
+    z-index: 0;
+    overflow-y: auto;
+    padding-top:20px;
 }
 
