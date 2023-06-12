@@ -7,7 +7,7 @@ body
 {
     display:flex;
     justify-content: center;
-    width:98vw;
+    width:98%;
 }
 
 .tvhead_gif
@@ -27,8 +27,13 @@ body
     width: 95.8vw;
     height: 35%;
     border: 4px solid black;
-    overflow-wrap: break-word;
-    z-index: -5;
+    overflow-wrap:break-word;
+    overflow-y: scroll;
+}
+
+.aboutme_text
+{
+    align-self: flex-start;
 }
 
 .quote
