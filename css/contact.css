@@ -203,3 +203,13 @@ body
     transition: filter 0.5s;
     visibility: visible;
 }
+
+
+
+@media (min-device-width : 1800px)
+{
+    body
+    {
+        height: 100vh;
+    }
+}
