@@ -73,3 +73,14 @@ body
     }
 }
 
+@media (min-device-width : 1600px)
+{
+    body
+    {
+        height: 102vh;
+    }
+    .aboutme_paragraph
+    {
+        font-size:130%;
+    }
+}
