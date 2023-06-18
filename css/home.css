@@ -1,6 +1,7 @@
 body
 {
-    height:100vh;
+    height: auto;
+    min-height: 100vh;
 }
 
 .tvhead_gif_container

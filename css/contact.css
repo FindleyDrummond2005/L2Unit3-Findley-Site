@@ -1,6 +1,7 @@
 body
 {
-    height:100%;
+    height: auto;
+    min-height: 100vh;
 }
 .contact_row
 {
@@ -202,14 +203,4 @@ body
     filter:blur(0px);
     transition: filter 0.5s;
     visibility: visible;
-}
-
-
-
-@media (min-device-width : 1800px)
-{
-    body
-    {
-        height: 100vh;
-    }
 }

@@ -8,7 +8,8 @@
 
 body
 {
-    height:100%;
+    height: auto;
+    min-height: 100%;
     background:rgb(76,2,139);
     background:linear-gradient(180deg, rgba(76,2,139,1) 0%, rgba(101,0,186,1) 80%, rgba(132,0,163,1) 100%);
     font-family: dustismo;

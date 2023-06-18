@@ -8,7 +8,6 @@ var two = true
 var three = true
 var four = true
 
-
 function open_edu(open_edu_num)
 {
     switch (open_edu_num)

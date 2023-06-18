@@ -1,6 +1,7 @@
 body
 {
-    height:100vh;
+    height: auto;
+    min-height: 100vh;
 }
 
 p
@@ -33,7 +34,7 @@ p
     border: 4px solid black;
 }
 
-.work_experience_link
+.relative_link
 {
     position: absolute;
     bottom:0;
@@ -84,3 +85,5 @@ p
 {
     display:none;
 }
+
+
