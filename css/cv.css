@@ -18,3 +18,8 @@ p
     left:20vmax;
     cursor:pointer;
 } 
+
+body
+{
+    height:100vh;
+}

@@ -85,39 +85,39 @@ body
     visibility: visible;
 }
 
-.twitter_img
+.blueSky_img
 {
     position: absolute;
     transition: width 0.5s;
-    width:13.5vmax;
+    width:11vmax;
     z-index: -4;
 }
 
-.twitter_img_block
+.blueSky_img_block
 {
     background-color: rgb(29 161 242);
 }
 
-.twitter_onhover
+.blueSky_onhover
 {
     cursor:pointer;
     transition: width 0.5s;
-    width:16.5vmax;
+    width:14vmax;
 }
 
-.twitter_onclick
+.blueSky_onclick
 {
     transition: filter 0.5s;
     filter:blur(10px)
 }
 
-.twitter_text_off
+.blueSky_text_off
 {
     filter:blur(10px);
     visibility: hidden;
 }
 
-.twitter_text_on
+.blueSky_text_on
 {
     font-size: x-large;
     filter:blur(0px);

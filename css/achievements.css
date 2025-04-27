@@ -22,24 +22,11 @@
     font-size:x-large;
 }
 
-.wisbech_grammer_img
-{
-    background-image: url(..\\assets\\images\\wisbech_grammer_school_img.jpg);
-    background-size:17vw;
-} 
-
 .music_img
 {
     background-image: url(..\\assets\\images\\treble_clef_img.jpg);
     background-size:9vw;
 }
-
-.game_img
-{
-    background-image: url(..\\assets\\images\\game_character_img.jpg);
-    background-size:cover;
-}
-
 
 .achievement_content
 {
@@ -54,4 +41,9 @@
     border: 4px solid black;
     overflow-wrap: break-word;
     z-index: -5;
+}
+
+body
+{
+    height:100vh;
 }

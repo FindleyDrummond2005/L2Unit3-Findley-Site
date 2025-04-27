@@ -1,8 +1,8 @@
 var email_hover = document.querySelector(".email_img")
 var email_text = document.querySelector(".email_text_off")
 
-var twitter_hover = document.querySelector(".twitter_img")
-var twitter_text = document.querySelector(".twitter_text_off")
+var blueSky_hover = document.querySelector(".blueSky_img")
+var blueSky_text = document.querySelector(".blueSky_text_off")
 
 var whatsapp_hover = document.querySelector(".whatsapp_img")
 var whatsapp_text = document.querySelector(".whatsapp_text_off")
@@ -20,7 +20,7 @@ function img_changer(img_num)
         break;
 
         case 2:
-            twitter_hover.classList.add("twitter_onhover")
+            blueSky_hover.classList.add("blueSky_onhover")
         break;
 
         case 3:
@@ -42,7 +42,7 @@ function img_normaliser(img_num)
         break;
 
         case 2:
-            twitter_hover.classList.remove("twitter_onhover")
+            blueSky_hover.classList.remove("blueSky_onhover")
         break;
 
         case 3:
@@ -65,8 +65,8 @@ function show_info(img_num)
         break;
 
         case 2:
-            twitter_hover.classList.add("twitter_onclick")
-            twitter_text.classList.add("twitter_text_on")
+            blueSky_hover.classList.add("blueSky_onclick")
+            blueSky_text.classList.add("blueSky_text_on")
         break;
 
         case 3:
